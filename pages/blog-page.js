@@ -1,6 +1,6 @@
-import Layout from '../compents/Layout'
-import { getAllPostsData } from '../ lib/post'
-import Post from '../compents/Post'
+import Layout from '../components/Layout'
+import { getAllPostsData } from '../lib/posts'
+import Post from '../components/Post'
 
 const Blog = ({ posts }) => {
 	return (
